@@ -9,8 +9,8 @@
 This is the Loan Calculator application.
 Choose amount, years, interest using UISlider and select monthly or yearly payments using UISwitch. <br/>
 The application will calculate amount per payment. <br/> 
-See the calculation formula: <br/>
-Confirm results here: <br/>
+See the calculation formula: https://www.fortpittcapital.com/resources/calculators/loan-calculator/ <br/>
+Confirm results here: https://www.loancalculator.org/
 
 ## Finished App
 

@@ -13,6 +13,8 @@
 		AC49CF5C2982BCC2001FFBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49CF5A2982BCC2001FFBC0 /* Main.storyboard */; };
 		AC49CF5E2982BCC3001FFBC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC49CF5D2982BCC3001FFBC0 /* Assets.xcassets */; };
 		AC49CF612982BCC3001FFBC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC49CF5F2982BCC3001FFBC0 /* LaunchScreen.storyboard */; };
+		AC49CF692982BE8A001FFBC0 /* LoanLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49CF682982BE8A001FFBC0 /* LoanLogic.swift */; };
+		AC49CF6C2982BEA8001FFBC0 /* LoanAmountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC49CF6B2982BEA8001FFBC0 /* LoanAmountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AC49CF5D2982BCC3001FFBC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC49CF602982BCC3001FFBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC49CF622982BCC3001FFBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC49CF682982BE8A001FFBC0 /* LoanLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanLogic.swift; sourceTree = "<group>"; };
+		AC49CF6B2982BEA8001FFBC0 /* LoanAmountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanAmountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,31 @@
 			children = (
 				AC49CF542982BCC2001FFBC0 /* AppDelegate.swift */,
 				AC49CF562982BCC2001FFBC0 /* SceneDelegate.swift */,
-				AC49CF582982BCC2001FFBC0 /* ViewController.swift */,
+				AC49CF6A2982BE8E001FFBC0 /* Model */,
+				AC49CF6D2982BEAC001FFBC0 /* View */,
 				AC49CF5A2982BCC2001FFBC0 /* Main.storyboard */,
 				AC49CF5D2982BCC3001FFBC0 /* Assets.xcassets */,
 				AC49CF5F2982BCC3001FFBC0 /* LaunchScreen.storyboard */,
 				AC49CF622982BCC3001FFBC0 /* Info.plist */,
 			);
 			path = LoanCalculator_Completed;
+			sourceTree = "<group>";
+		};
+		AC49CF6A2982BE8E001FFBC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC49CF682982BE8A001FFBC0 /* LoanLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC49CF6D2982BEAC001FFBC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC49CF582982BCC2001FFBC0 /* ViewController.swift */,
+				AC49CF6B2982BEA8001FFBC0 /* LoanAmountViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				AC49CF592982BCC2001FFBC0 /* ViewController.swift in Sources */,
 				AC49CF552982BCC2001FFBC0 /* AppDelegate.swift in Sources */,
+				AC49CF692982BE8A001FFBC0 /* LoanLogic.swift in Sources */,
+				AC49CF6C2982BEA8001FFBC0 /* LoanAmountViewController.swift in Sources */,
 				AC49CF572982BCC2001FFBC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
